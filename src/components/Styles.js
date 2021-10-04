@@ -128,7 +128,7 @@ export const Ul = styled.ul`
     border-radius: 4px;
   }
   a:hover {
-    background-color: hotpink;
+    background-color: orange;
   }
     @media (max-width: 640px){
      li a{
@@ -187,7 +187,7 @@ export const DivAbout = styled.div`
 export const FooterSection = styled.section`
   display: flex;
   min-height: 200px;
-  background-color: whitesmoke;
+  background-color: #0d2538;
 
   .divSocial {
     display: flex;
@@ -197,7 +197,7 @@ export const FooterSection = styled.section`
   }
 
   .divSocial a {
-    color: black;
+    color: orange;
     padding: 3em 0 0 2em;
   }
   a:hover {
@@ -228,17 +228,14 @@ export const FooterSection = styled.section`
       margin-top: 20px;
       margin-left: 0;
       margin-right: 0;
-  
     }
     span {
-    margin:auto;
-    height: 100%;
-    background-color: transparent;
-   padding: 3em 0 0 2em;
-   color: orange;
-
+      margin: auto;
+      height: 100%;
+      background-color: transparent;
+      padding: 3em 0 0 2em;
+      color: orange;
     }
-  
   }
 `;
 
