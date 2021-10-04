@@ -67,7 +67,7 @@ const Skills = () => {
   return (
     <>
       <Section id="Skills">
-        <h1>Skills / Courses</h1>
+        <h1>Skills / Courses haha</h1>
         <div className="box">
           <Title className="Html">
             <img src={html} alt="imghtml" />
