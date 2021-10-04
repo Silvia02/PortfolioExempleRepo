@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PortfolioExempleRepo/static/css/main.f1211cf0.chunk.css",
+    "main.js": "/PortfolioExempleRepo/static/js/main.2bf9200a.chunk.js",
+    "main.js.map": "/PortfolioExempleRepo/static/js/main.2bf9200a.chunk.js.map",
+    "runtime-main.js": "/PortfolioExempleRepo/static/js/runtime-main.447314f7.js",
+    "runtime-main.js.map": "/PortfolioExempleRepo/static/js/runtime-main.447314f7.js.map",
+    "static/js/2.39040403.chunk.js": "/PortfolioExempleRepo/static/js/2.39040403.chunk.js",
+    "static/js/2.39040403.chunk.js.map": "/PortfolioExempleRepo/static/js/2.39040403.chunk.js.map",
+    "index.html": "/PortfolioExempleRepo/index.html",
+    "static/css/main.f1211cf0.chunk.css.map": "/PortfolioExempleRepo/static/css/main.f1211cf0.chunk.css.map",
+    "static/js/2.39040403.chunk.js.LICENSE.txt": "/PortfolioExempleRepo/static/js/2.39040403.chunk.js.LICENSE.txt",
+    "static/media/171-1718042_javascript-logo-png-transparent-png.4bdf535d.png": "/PortfolioExempleRepo/static/media/171-1718042_javascript-logo-png-transparent-png.4bdf535d.png",
+    "static/media/index.css": "/PortfolioExempleRepo/static/media/Caribbean-beach.b4c07861.jpeg",
+    "static/media/html.bff4db1b.jpeg": "/PortfolioExempleRepo/static/media/html.bff4db1b.jpeg",
+    "static/media/react.ef20e673.png": "/PortfolioExempleRepo/static/media/react.ef20e673.png",
+    "static/media/silvia.ac741ea1.jpg": "/PortfolioExempleRepo/static/media/silvia.ac741ea1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.447314f7.js",
+    "static/js/2.39040403.chunk.js",
+    "static/css/main.f1211cf0.chunk.css",
+    "static/js/main.2bf9200a.chunk.js"
+  ]
+}
