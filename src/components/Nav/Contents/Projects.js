@@ -27,7 +27,8 @@ const Section = styled.section`
     line-height: 1.5em;
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    text-decoration: underline; 
   }
 
   .boxProject p {
@@ -51,10 +52,10 @@ const Projects = () => {
     <>
       <Section id="Projects">
         <div className="boxProject">
-          <h1>Projects</h1>
+          <h1>Project</h1>
           <p>
-            In this project, I'm fetching tree diferents API to call and
-            grabbing the apis obects. I'm using pure CSS3 and javascript.
+            An application to show products and their details using REST API and
+            javascript.
           </p>
           <a href="https://silvia02.github.io/API-APP/">
             Go to this project...

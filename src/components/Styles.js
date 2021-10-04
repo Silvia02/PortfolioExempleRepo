@@ -1,34 +1,41 @@
 /*  */
 import styled from 'styled-components';
-//Home styles
+
+
+/********Home styles*******/
 export const DivHome = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 200px;
+  margin-left: 130px;
+  flex-wrap: wrap;
   img {
     width: 20%;
-    -webkit-box-shadow: 4px 17px 15px 6px #000000; 
-    box-shadow: 4px 17px 15px 7px #000000;    
+    -webkit-box-shadow: 4px 17px 15px 6px #000000;
+    box-shadow: 4px 17px 15px 7px #000000;
   }
   .textMe {
+    //display: flex;
     font-size: 20px;
     line-height: 1.4em;
-    margin-left: 20px;
     color: white;
     height: 100px;
     color: black;
-    
+    margin-left: 50px;
+    text-align: center;
+    align-items: center;
   }
-  @media only screen and (max-width: 425px) {
-   img {
-    margin-left: 30px;
-    width: 50%;
-   },
-   .textMe {
-      margin-bottom: -10px;
-      height: 100%; 
-   }
+  @media only screen and (max-width: 768px) {
+    img {
+      margin: auto;
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    ,
+    .textMe div{
+      margin-left: 50px;
+      align-items: center;
+      
+    }
   }
 `;
 
@@ -146,6 +153,7 @@ export const TitleAbout = styled.h1`
   margin-bottom: 20px;
 `;
 
+/**********ABOUT************/
 export const DivAbout = styled.div`
   display: flex;
   justify-content: center;
@@ -166,14 +174,12 @@ export const DivAbout = styled.div`
       width: 50%;
     }
   }
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     .divAbout {
       margin-top: 200px;
       width: 80%;
- 
     }
   }
- 
 
   h1 {
     text-align: center;
@@ -181,6 +187,7 @@ export const DivAbout = styled.div`
     color: hotpink;
     margin-bottom: 20px;
     margin-top: 10px;
+    text-decoration: underline;
   }
 `;
 //*********FOOTER*******///
@@ -192,7 +199,7 @@ export const FooterSection = styled.section`
   .divSocial {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    align-items: center;
     margin-left: 80px;
   }
 
@@ -205,21 +212,17 @@ export const FooterSection = styled.section`
   }
 
   .divContact {
-    justify-content: center;
+    align-items: center;
     display: flex;
-    padding: 10px;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-left: 90px;
     width: 100%;
   }
 
   span {
-    padding: 20px;
-    height: 70px;
-    color: black;
-    background-color: orange;
-    border-radius: 20px;
-    margin-left: 20px;
+    color: orange;
+    margin-left: 40px;
   }
   @media (max-width: 768px) {
     .divContact,

@@ -7,7 +7,7 @@ import UX from "../../../images/ux-ui.png";
 
 
 const Section = styled.section`
-  background-color: #c3a4a4;
+  background-color: #ffde9d;
   margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -41,15 +41,17 @@ const Section = styled.section`
     font-size: 2rem;
     text-align: center;
     width: 100%;
+    text-decoration: underline;
   }
 
   /* On screens that are 992px wide or less, go from four columns to two columns */
   @media screen and (max-width: 768px) {
     .box {
       font-size: 0.9rem;
-    },
-    #skills{
-        background-color: transparent;
+    }
+    ,
+    #skills {
+      background-color: transparent;
     }
   }
   @media (max-width: 600px) {
@@ -67,7 +69,7 @@ const Skills = () => {
   return (
     <>
       <Section id="Skills">
-        <h1>Skills / Courses haha</h1>
+        <h1>Courses</h1>
         <div className="box">
           <Title className="Html">
             <img src={html} alt="imghtml" />

@@ -9,10 +9,10 @@ const Home = ()=> {
       <>
         <DivHome>
           <img src={silvia} alt="me" />
-          <p className="textMe">
-            My name is Silvia, I'm a frontend developer, <br/> I like to code and to be
+          <div className="textMe">
+            My name is Silvia, I'm a frontend developer. <br/> I like to code and to be
             in constant learning. <br/>-Stockholm, Sweden!
-          </p>
+          </div>
         </DivHome>
        
        
