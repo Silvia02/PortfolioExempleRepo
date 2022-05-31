@@ -57,8 +57,8 @@ const Projects = () => {
             An application to show products and their details using REST API and
             javascript.
           </p>
-          <a href="https://silvia02.github.io/API-APP/">
-            Go to this project...
+          <a href="https://github.com/Silvia02?tab=repositories">
+            Go to my github...
           </a>
         </div>
       </Section>
